@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Meta Data related to the website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SONIX Links is a website that allows you to check all the links related to Sonix">
+    <meta name="keywords" content="SONIX, Links, Shorten, URL, Link, Shortener">
+    <meta name="author" content="SONIX">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="language" content="fr">
+    <!-- CSS -->
+    <title>Sonix links</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+</head>
+
+<body>
+    <section id="main">
+        <div class="card animate__animated animate__fadeIn">
+            <img src="assets/images/logo.png" alt="logo" style="
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            filter: invert(0.99);            
+                ">
+            <div class="logo">
+                <img src="assets/images/liquid.gif" alt="Sonix Logo">
+            </div>
+
+            <h1>S O N I X</h1>
+
+            <a href="https://soundcloud.com/sonixbeatsprod" class="btn animate__animated animate__fadeInUp animate__delay-1s" 
+            onclick="return confirm('Are you sure you want to leave this page?');"
+            >
+                <ion-icon name="logo-soundcloud"></ion-icon>
+                SoundCloud
+            </a>
+            <a href="https://www.youtube.com/channel/UCc3_FjRf9kUk6erbzyUkrrw" class="btn animate__animated animate__fadeInUp animate__delay-2s"
+            onclick="return confirm('Are you sure you want to leave this page?');">
+                <ion-icon name="logo-youtube"></ion-icon>
+                YouTube
+            </a>
+            <a href="https://www.instagram.com/sonixbts/" class="btn animate__animated animate__fadeInUp animate__delay-3s"
+            onclick="return confirm('Are you sure you want to leave this page?');">
+                <ion-icon name="logo-instagram"></ion-icon>
+                Instagram
+            </a>
+            <a href="https://x.com/marxsnx" class="btn animate__animated animate__fadeInUp animate__delay-4s"
+            onclick="return confirm('Are you sure you want to leave this page?');">
+                <ion-icon name="logo-twitter"></ion-icon>
+                Twitter
+            </a>
+            <a href="https://github.com/sonixbeats" class="btn animate__animated animate__fadeInUp animate__delay-5s"
+            onclick="return confirm('Are you sure you want to leave this page?');">
+                <ion-icon name="logo-github"></ion-icon>
+                Github
+            </a>
+
+            <div class="footer">
+                <p>© 2021 Sonix</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
